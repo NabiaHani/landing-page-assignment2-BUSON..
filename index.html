@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LANDING PAGE| BUSON.</title>
+</head>
+<style>
+    
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.header-left{
+    height: 40px;
+    width: 100%;
+    background-color:#002d5b;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 2px 18px;
+    font-size: 14px;
+    color: white;
+}
+
+.header-top-left1 p{
+    font-size: 12px;
+    padding-right: 10px;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.header-top-left1 img{
+    display: flex;
+    position: relative;
+    float: left;
+}
+
+.header-top-left2{
+    display: flex;
+    margin-right: 396px;
+}
+
+.header-top-left2 p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+.header-top-left2 img{
+    display: flex;
+    position: relative;
+    float: left;
+    top: -4px;
+    right: -1px;
+}
+
+.right-header .header-social ul li {
+    list-style: none;
+    display: flex;
+    position: relative;
+    align-items: center;
+    float: left;
+    padding-top: 10px;
+    padding-left: 17px;
+    left: -40px;
+} 
+
+.middle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+} */
+
+.navigation {
+    display: block;
+    background-color: #fff;
+    width: 100%;
+    height: 100px;
+}
+
+#logo {
+    padding-top: 0px;
+    margin: 24px;
+    padding-left: 233px;
+}
+
+.navbar {
+    display: flex;
+    position: relative;
+    bottom: 114px;
+    top: -48px;
+    margin-right: 248px;
+    padding-left: 600px;
+}
+
+.navbar ul {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#navbar-1 ul li {
+    list-style: none;
+    text-align: left;
+}
+
+#navbar-1 ul li a {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #002e5b;
+    text-decoration: none;
+    left: 550px;
+    padding: 15px;
+    font-size: 12px;
+}
+
+a:hover{
+    color: #ff656a;
+}
+
+.headerrightbtn {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 30px;
+    margin: -22px;
+}
+
+.header-btn {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    position: relative;
+    align-items: flex-end;
+    margin-right: 50px;
+    left: -215px;
+    top: -10px;
+    font-size: 14px;
+}
+
+.btn {
+    font-size: 10px;
+    border: 2px solid #ff656a;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    background-color: #ff656a;
+    border-radius: 5px;
+    width: 110px;
+}
+
+.btn:hover{
+    background-color: #e6373d;
+    border: 2px solid #e6373d;
+    cursor: pointer;
+}
+
+.slider {
+    position: relative;
+    height: 600px;
+    top: -173px;
+} 
+
+.slider::before {
+    content: "";
+    background-color: #fff;
+    position: absolute;
+    left: 0px;
+    top: 150px;
+    width: 100%;
+    height: 90%;
+    z-index: -1;
+    opacity: 0.8;
+    background: url(background1.jpg) no-repeat center center/cover;
+}
+
+h5 {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    position: relative;
+    color: #ff656a;
+    top: 310px;
+    margin-left: 45px;
+}
+
+.h-primary-left2 h1 {
+    margin-top: 316px;
+    font-size: 53px;
+    font-weight: bolder;
+    margin-bottom: 53px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #002d5b;
+    margin-bottom: -280px;
+    word-wrap: break-word;
+    height: 40px;
+    padding-left: 45px;
+    text-transform: uppercase;
+}
+
+.slider-heading2 h1:hover {
+    cursor: pointer;
+}
+
+.hero-btn {
+    border: 2px solid #ff656a;
+    background-color: #ff656a;
+    width: 140px;
+    height: 13px;
+    border-radius: 5px;
+    text-align: center;
+    padding: 15px;
+    text-transform: uppercase;
+    margin-top: 340px;
+    margin-left: 47px;
+    position: relative;
+    display: inline-block;
+}
+
+.hero-btn a {
+    align-items: center;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-size: 12px;
+    padding-bottom: 20px;
+}
+
+.hero-btn:hover {
+    background-color: #e6373d;
+    border: 2px solid #e6373d;
+}
+
+
+/* "team profile details" */
+.team{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.team-profile {
+    margin-top: 20px;
+    padding-bottom: 200px;
+    padding-left: 35px;
+    display: flex;
+    position: relative;
+}
+
+.container-1 {
+    border: 2px solid transparent;
+    width: 250px;
+    height: 288px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.profile-1 img{
+    width: 250px;
+    border-bottom: #ff656a;
+    transition: all .4s ease-out 0s;
+    border-bottom: 7px solid transparent;
+}
+
+/* 'profile 1 and profile 2 image moveable' */
+img:hover{
+    transform: scale(1.1);
+}
+
+.profile-caption-1 h3 a {
+    position: relative;
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    top: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.profile-caption-1 h3 a:hover{
+    color: #ff656a;
+}
+
+.profile-caption-1 p{
+    padding-top: 20px;
+    color: gray;
+}
+
+.container-2 {
+    border: 2px solid transparent;
+    width: 250px;
+    height: 288px;
+    padding-left: 15px;
+    padding-right: 26px;
+}
+
+.profile-2 img{
+    width: 250px;
+    border-bottom: #ff656a;
+    transition: all .4s ease-out 0s;
+    border-bottom: 7px solid transparent;
+}
+
+.profile-caption-2 h3 a {
+    position: relative;
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    top: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.profile-caption-2 h3 a:hover{
+    color: #ff656a;
+}
+
+.profile-caption-2 p{
+    padding-top: 20px;
+    color: gray;
+}
+
+.container-3{
+    border: 3px solid #ff656a;
+    width: 200px;
+    height: 288px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+}
+
+.profile-caption-3 h3 a {
+    text-decoration: none;
+    color: black;
+    font-size: 35px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+hr{
+    background: #ff656a;
+    width: 100px;
+    height: 3px;
+    left: 0;
+    bottom: 0;
+}
+
+.profile-caption-3 p{
+    padding-top: 20px;
+    color: gray;
+}
+
+.profile-caption-3 a{
+    color: gray;
+    text-decoration: none;
+}
+
+.visit-profile:hover{
+    color: #ff656a;
+}
+
+</style>
+
+<body>
+    <header>
+        <div class="header-left">
+
+            <div class="header-top-left1">
+                <img src="location.png" alt="" width="18px" height="18px">
+                <p> 65/A, 17th floor, Kings land, New York</p>
+            </div>
+
+            <div class="header-top-left2">
+                <img src="email.png" alt="" width="25px" height="25px">
+                <p>
+                    info@consulting.com
+                </p>
+            </div>
+
+            <div class="right-header">
+                <div class="header-social">
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <img src="linkedin.png" alt="" height="22px" width="22px">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="twitter.png" alt="" height="14px" width="14px">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="facebook.png" alt="" height="14px" width="14px">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="google.png" alt="" height="22px" width="22px">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+
+
+        </div>
+        <section class="middle">
+
+            <div class="navigation">
+
+                <div id="main-header">
+                    <div id="logo">
+                        <a href="#">
+                            <img src="logo.png" alt="">
+                        </a>
+                    </div>
+                </div>
+
+
+                <div class="navbar">
+                    <nav id="navbar-1">
+                        <ul>
+                            <li><a href="#">HOME</a></li>
+                            <li><a href="#">ABOUT</a></li>
+                            <li><a href="#">SERVICES</a></li>
+                            <li><a href="#">CASES</a></li>
+                            <li><a href="#">BLOG</a></li>
+                            <li><a href="#">PAGES</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div class="headerrightbtn">
+                <div class="header-btn">
+                    <a href="#" class="btn">CONTACT NOW</a>
+                </div>
+            </div>
+        </section>
+    </header>
+
+
+
+    <main>
+        <section class="content">
+
+            <div class="slider">
+                <h5 class="h-primary-left">WELCOME TO BUSON.</h5>
+                <div class="slider-details">
+
+                    <div class="h-primary-left2">
+                        <h1>
+                            We help you to
+                        </h1>
+                        <h1>
+                            grow your
+                        </h1>
+                        <h1>
+                            business
+                        </h1>
+                    </div>
+
+                    <div class="hero-btn">
+                        <a href="#">Learn more</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <section class="team">
+
+            <div class="team-profile">
+                <div class="container-1">
+                    <div class="profile-1">
+                        <img src="profile-1.png" alt="" width="240px" height="175px">
+                    </div>
+                    <div class="profile-caption-1">
+                        <h3>
+                            <a href="#">Business Planning</a>
+                        </h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint officia soluta quaerat at?
+                            Natus
+                            asperiores dolorum explicabo minus ea quas.</p>
+                    </div>
+                </div>
+
+                <div class="container-2">
+                    <div class="profile-2">
+                        <img src="profile-2.png" alt="" width="210px" height="175px">
+                    </div>
+
+                    <div class="profile-caption-2">
+                        <h3>
+                            <a href="#">Financial Projections</a>
+                        </h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. A modi quas iusto sapiente saepe
+                            autem
+                            harum labore quod exercitationem est?</p>
+                    </div>
+                </div>
+
+                <div class="container-3">
+                    <div class="profile-3">
+                        <div class="profile-caption-3">
+                            <h3>
+                                <a href="#">What we do for you</a>
+                                <br>
+                                <br>
+                                <hr>
+                            </h3>
+
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab, voluptatum similique
+                                exercitationem commodi omnis distinctio!</p>
+
+                            <br>
+                            <a href="#" class="visit-profile">View Profile >> </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+    </main>
+
+</body>
+
+</html>
